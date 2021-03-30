@@ -1,0 +1,11 @@
+spring:
+  datasource:
+    druid:
+      driver-class-name: com.mysql.cj.jdbc.Driver
+      platform: mysql
+      url: jdbc:mysql://192.168.2.236:3306/stu?serverTimezone=GMT%2B8&useUnicode=true&characterEncoding=utf8&characterSetResults=utf8&useSSL=false&allowMultiQueries=true
+      username: root
+      password: lantone
+logging:
+  level:
+    root: debug
